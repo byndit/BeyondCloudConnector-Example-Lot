@@ -1,0 +1,40 @@
+{
+    "id": "1abb9a0c-56ed-47b8-9446-a95427e05233",
+    "name": "BeyondCloudConnector-Lot",
+    "publisher": "BEYONDIT GmbH",
+    "version": "1.0.0.1",
+    "brief": "Beyond-CloudConnector Extension for Lot No. Information.",
+    "description": "Visit https://www.beyondit.gmbh/",
+    "url": "https://beyondit.gmbh",
+    "supportedLocales": [
+        "de-DE",
+        "en-US"
+    ],
+    "propagateDependencies": true,
+    "dependencies": [
+        {
+            "id": "7367e644-7294-4a21-b213-942359a67ed5",
+            "name": "BeyondCloudConnector",
+            "publisher": "BEYONDIT GmbH",
+            "version": "18.0.0.0"
+        }
+    ],
+    "application": "22.0.0.0",
+    "platform": "22.0.0.0",
+    "idRanges": [
+        {
+            "from": 60010,
+            "to": 60015
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDownloadingSource": false,
+        "allowDebugging": true
+    },
+    "runtime": "11.0",
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith"
+    ],
+    "target": "Cloud"
+}
